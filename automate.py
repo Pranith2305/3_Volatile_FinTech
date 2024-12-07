@@ -43,4 +43,4 @@ schedule.every(1).hours.do(update_js_file)  # Update JS file with data every 1 h
 while True:
     schedule.run_pending()
     time.sleep(60)  # Check for pending tasks every minute
- print("Done")
+    print("Done")

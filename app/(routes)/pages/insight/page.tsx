@@ -27,7 +27,7 @@ const ChangeIndicator = ({ change }: { change: number }) => {
   );
 };
 
-const StockItem = ({ item }: { item }) => {
+const StockItem = ({ item }: { item : any}) => {
   return (
     <li
       key={item.id}
